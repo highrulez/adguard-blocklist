@@ -95,3 +95,40 @@ Accessible hosts by category:
 - Google, Meta, Instagram, YouTube, and Firebase API/content hosts: authentication, playback, application delivery, or configuration risk.
 - Tag Manager, A/B testing, consent, Intercom, and video player/CDN hosts: may be required for site behavior, consent, support, or playback.
 - `thetradedesk.com`, `greatis.com`, `shareasale.com`, `impact.com`, and `api.impact.com`: root/API domains are not narrowly enough advertising/tracking-specific for a DNS-wide block.
+
+## After AdGuard Home refresh
+
+- Timestamp (UTC): 2026-08-19T03:25:00Z
+- Total tested: 357
+- Blocked: 302
+- Accessible: 55
+- Protection: 84.6%
+- Direct DNS validation: passed. `crypto-loot.org`, `ads.yahoo.com`, and `www.anrdoezrs.net` returned the configured AdGuard blocking addresses when queried directly.
+
+| Metric | Before current update | After refresh |
+|---|---:|---:|
+| Protection | 83.5% | 84.6% |
+| Blocked | 298 | 302 |
+| Accessible | 59 | 55 |
+
+### Newly blocked in the browser test
+
+`2giga.link`, `ads.yahoo.com`, `go.skimresources.com`, `redirector.skimresources.com`, and `redirect.viglink.com` changed from Accessible to Blocked.
+
+### Still accessible
+
+- Ads: `cdn.taboola.com`, `s.youtube.com`, `redirector.googlevideo.com`, `youtubei.googleapis.com`.
+- Analytics: `googletagmanager.com`, `tagmanager.google.com`, `www.googletagmanager.com`, `api-js.mixpanel.com`, `scorecardresearch.com`.
+- Tracking & Fingerprinting: `thetradedesk.com`, `app.appsflyer.com`, `app.adjust.com`.
+- Cryptominers & Malware: `crypto-loot.org`, `greatis.com`.
+- Social Trackers: `connect.facebook.net`, `graph.facebook.com`, `graph.instagram.com`, `i.instagram.com`, `ads.x.com`, `ads-sg.tiktok.com`, `business-api.tiktok.com`, `vk.com/rtrg`.
+- OEM Vendors: `firebase-settings.crashlytics.com`.
+- Consent Management: `cdn.cookielaw.org`, `geolocation.onetrust.com`, `consent.cookiebot.com`, `consentcdn.cookiebot.com`, `cookiebot.com`, `consent.trustarc.com`, `sdk.privacy-center.org`, `cdn.privacy-mgmt.com`, `app.usercentrics.eu`.
+- Affiliate Networks: `www.anrdoezrs.net`, `www.dpbolvw.net`, `www.tkqlhce.com`, `shareasale.com`, `shareasale-analytics.com`, `impact.com`, `api.impact.com`, `www.awin1.com`, `zenaps.com`, `cdn.viglink.com`.
+- A/B Testing: `cdn.optimizely.com`, `logx.optimizely.com`, `api.optimizely.com`, `cdn.dynamicyield.com`.
+- Email Tracking: `widget.intercom.io`.
+- Video Ads: `imasdk.googleapis.com`, `dai.google.com`, `g.jwpsrv.com`, `ssl.p.jwpcdn.com`, `mssl.fwmrm.net`, `cd.connatix.com`, `capi.connatix.com`, `vid.connatix.com`.
+
+### Browser/DNS mismatch
+
+Direct AdGuard DNS lookups prove that three newly added rules are active. The OBFUSGATED browser probe nevertheless reported some rules as Accessible, including `crypto-loot.org` and several rules already present before this retest. This indicates the site's resource-fetch methodology, browser caching, CNAME/resource behavior, or non-DNS failure classification is not equivalent to a direct DNS-block test. No duplicate rules were added to chase these probes.
