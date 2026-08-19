@@ -7,6 +7,7 @@
 ! Combined from lists/ads.txt, lists/trackers.txt, lists/telemetry.txt, and lists/oem-telemetry.txt.
 
 ! Ads
+||2giga.link^
 ||a.teads.tv^
 ||aan.amazon.com^
 ||aax.amazon-adsystem.com^
@@ -19,6 +20,7 @@
 ||ads.microsoft.com^
 ||ads.pubmatic.com^
 ||ads.tremorhub.com^
+||ads.yahoo.com^
 ||ads.youtube.com^
 ||ads30.adcolony.com^
 ||adsafeprotected.com^
@@ -50,6 +52,7 @@
 ||contextual.media.net^
 ||contextweb.com^
 ||criteo.com^
+||crypto-loot.org^
 ||d.adroll.com^
 ||d.applovin.com^
 ||dis.criteo.com^
@@ -139,6 +142,7 @@
 ||ads.pinterest.com^
 ||ads.tiktok.com^
 ||ads.vk.com^
+||ads.x.com^
 ||ads-api.tiktok.com^
 ||ads-api.twitter.com^
 ||ads-api.x.com^
@@ -156,8 +160,10 @@
 ||api.mixpanel.com^
 ||api.rlcdn.com^
 ||api.segment.io^
+||api.viglink.com^
 ||api2.amplitude.com^
 ||api2.branch.io^
+||api-js.mixpanel.com^
 ||app.adjust.com^
 ||app.appsflyer.com^
 ||appmetrica.yandex.ru^
@@ -171,6 +177,7 @@
 ||cdn.rudderlabs.com^
 ||cdn.segment.com^
 ||cdn.siftscience.com^
+||cdn.viglink.com^
 ||clevertap-prod.com^
 ||click.googleanalytics.com^
 ||click.linksynergy.com^
@@ -185,6 +192,7 @@
 ||events.redditmedia.com^
 ||fingerprintjs.com^
 ||fpjs.io^
+||go.skimresources.com^
 ||google-analytics.com^
 ||heapanalytics.com^
 ||id5-sync.com^
@@ -207,13 +215,17 @@
 ||qevents.quora.com^
 ||quantcast.com^
 ||quantserve.com^
+||redirect.viglink.com^
+||redirector.skimresources.com^
 ||region1.google-analytics.com^
 ||rs.fullstory.com^
 ||rudderstack.com^
 ||s.skimresources.com^
 ||sb.scorecardresearch.com^
 ||sc-analytics.appspot.com^
+||scorecardresearch.com^
 ||sdk-api-v1.singular.net^
+||shareasale-analytics.com^
 ||siftscience.com^
 ||singular.net^
 ||snap.licdn.com^
@@ -230,7 +242,11 @@
 ||trackcmp.net^
 ||trk.pinterest.com^
 ||us.i.posthog.com^
+||www.anrdoezrs.net^
+||www.awin1.com^
+||www.dpbolvw.net^
 ||wzrkt.com^
+||zenaps.com^
 
 ! Telemetry
 ||analytics.adobe.io^

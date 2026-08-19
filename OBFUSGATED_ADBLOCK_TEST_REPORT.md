@@ -58,3 +58,40 @@ Added only narrow, clearly advertising, tracking, analytics, telemetry, OEM-adve
 ## After update
 
 Pending: the new committed list must be pushed, fetched by AdGuard Home, and verified through DNS before the comparison test is meaningful.
+
+## Fresh retest before current update
+
+- Timestamp (UTC): 2026-08-19T03:15:00Z
+- Total tested: 357
+- Blocked: 298
+- Accessible: 59
+- Protection: 83.5%
+- Unusual statuses: none; the site exposed only Blocked and Accessible.
+
+Accessible hosts by category:
+
+- Ads: `cdn.taboola.com`, `ads.yahoo.com`, `s.youtube.com`, `redirector.googlevideo.com`, `youtubei.googleapis.com`.
+- Analytics: `googletagmanager.com`, `tagmanager.google.com`, `www.googletagmanager.com`, `api-js.mixpanel.com`, `scorecardresearch.com`.
+- Tracking & Fingerprinting: `thetradedesk.com`, `app.appsflyer.com`, `app.adjust.com`.
+- Cryptominers & Malware: `crypto-loot.org`, `2giga.link`, `greatis.com`.
+- Social Trackers: `connect.facebook.net`, `graph.facebook.com`, `graph.instagram.com`, `i.instagram.com`, `ads.x.com`, `ads-sg.tiktok.com`, `business-api.tiktok.com`, `vk.com/rtrg`.
+- OEM Vendors: `firebase-settings.crashlytics.com`.
+- Consent Management: `cdn.cookielaw.org`, `geolocation.onetrust.com`, `consent.cookiebot.com`, `consentcdn.cookiebot.com`, `consent.trustarc.com`, `sdk.privacy-center.org`, `cdn.privacy-mgmt.com`, `app.usercentrics.eu`.
+- Affiliate Networks: `www.anrdoezrs.net`, `www.dpbolvw.net`, `shareasale.com`, `shareasale-analytics.com`, `impact.com`, `api.impact.com`, `www.awin1.com`, `zenaps.com`, `go.skimresources.com`, `redirector.skimresources.com`, `redirect.viglink.com`, `cdn.viglink.com`, `api.viglink.com`.
+- A/B Testing: `cdn.optimizely.com`, `logx.optimizely.com`, `api.optimizely.com`, `cdn.dynamicyield.com`.
+- Email Tracking: `widget.intercom.io`.
+- Video Ads: `imasdk.googleapis.com`, `dai.google.com`, `g.jwpsrv.com`, `ssl.p.jwpcdn.com`, `mssl.fwmrm.net`, `cd.connatix.com`, `capi.connatix.com`, `vid.connatix.com`.
+
+### Rules added from this retest
+
+`2giga.link`, `crypto-loot.org`, `ads.yahoo.com`, `ads.x.com`, `api-js.mixpanel.com`, `scorecardresearch.com`, `shareasale-analytics.com`, `www.anrdoezrs.net`, `www.awin1.com`, `www.dpbolvw.net`, `zenaps.com`, `go.skimresources.com`, `redirector.skimresources.com`, `redirect.viglink.com`, `cdn.viglink.com`, and `api.viglink.com`.
+
+### Covered but still accessible
+
+`cdn.taboola.com`, `app.appsflyer.com`, `app.adjust.com`, `ads-sg.tiktok.com`, and `business-api.tiktok.com` already match existing Highrulez rules. Their accessible result is therefore not a reason to add duplicate rules; likely causes include the test request method, browser-level behavior, cache, or the DNS rule not applying to the test's exact resource path.
+
+### Intentionally skipped in this retest
+
+- Google, Meta, Instagram, YouTube, and Firebase API/content hosts: authentication, playback, application delivery, or configuration risk.
+- Tag Manager, A/B testing, consent, Intercom, and video player/CDN hosts: may be required for site behavior, consent, support, or playback.
+- `thetradedesk.com`, `greatis.com`, `shareasale.com`, `impact.com`, and `api.impact.com`: root/API domains are not narrowly enough advertising/tracking-specific for a DNS-wide block.

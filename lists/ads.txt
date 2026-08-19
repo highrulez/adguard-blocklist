@@ -1,6 +1,7 @@
 ! Title: Highrulez AdGuard Blocklist - Ads
 ! Syntax: AdGuard DNS filter
 
+||2giga.link^
 ||a.teads.tv^
 ||aan.amazon.com^
 ||aax.amazon-adsystem.com^
@@ -13,6 +14,7 @@
 ||ads.microsoft.com^
 ||ads.pubmatic.com^
 ||ads.tremorhub.com^
+||ads.yahoo.com^
 ||ads.youtube.com^
 ||ads30.adcolony.com^
 ||adsafeprotected.com^
@@ -44,6 +46,7 @@
 ||contextual.media.net^
 ||contextweb.com^
 ||criteo.com^
+||crypto-loot.org^
 ||d.adroll.com^
 ||d.applovin.com^
 ||dis.criteo.com^
