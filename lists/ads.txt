@@ -13,7 +13,6 @@
 ||adroll.com^
 ||ads.microsoft.com^
 ||ads.pubmatic.com^
-||ads.tremorhub.com^
 ||ads.yahoo.com^
 ||ads.youtube.com^
 ||ads30.adcolony.com^
@@ -117,7 +116,6 @@
 ||tpc.googlesyndication.com^
 ||tps.doubleverify.com^
 ||trc.taboola.com^
-||tremorhub.com^
 ||u.openx.net^
 ||us-ads.openx.net^
 ||vungle.com^

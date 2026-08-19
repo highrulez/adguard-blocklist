@@ -4,7 +4,7 @@
 ! Updated: 2026-08-19
 ! Syntax: AdGuard DNS filter
 !
-! Combined from lists/ads.txt, lists/trackers.txt, lists/telemetry.txt, and lists/oem-telemetry.txt.
+! Combined from categorized files in lists/.
 
 ! Ads
 ||2giga.link^
@@ -19,7 +19,6 @@
 ||adroll.com^
 ||ads.microsoft.com^
 ||ads.pubmatic.com^
-||ads.tremorhub.com^
 ||ads.yahoo.com^
 ||ads.youtube.com^
 ||ads30.adcolony.com^
@@ -123,7 +122,6 @@
 ||tpc.googlesyndication.com^
 ||tps.doubleverify.com^
 ||trc.taboola.com^
-||tremorhub.com^
 ||u.openx.net^
 ||us-ads.openx.net^
 ||vungle.com^
@@ -341,3 +339,8 @@
 ||watson.telemetry.microsoft.com^
 ||weather-analytics-events.apple.com^
 ||xp.apple.com^
+
+! Video ads
+||ads.tremorhub.com^
+||stats.g.doubleclick.net^
+||tremorhub.com^

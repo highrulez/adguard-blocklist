@@ -132,3 +132,23 @@ Accessible hosts by category:
 ### Browser/DNS mismatch
 
 Direct AdGuard DNS lookups prove that three newly added rules are active. The OBFUSGATED browser probe nevertheless reported some rules as Accessible, including `crypto-loot.org` and several rules already present before this retest. This indicates the site's resource-fetch methodology, browser caching, CNAME/resource behavior, or non-DNS failure classification is not equivalent to a direct DNS-block test. No duplicate rules were added to chase these probes.
+
+## Video Advertising Tests
+
+### YouTube
+
+- Domains evaluated: `pagead2.googlesyndication.com`, `googleads.g.doubleclick.net`, `ad.doubleclick.net`, `stats.g.doubleclick.net`, `static.doubleclick.net`, `securepubads.g.doubleclick.net`, `pubads.g.doubleclick.net`, `tpc.googlesyndication.com`, `googleadservices.com`, and `ads.youtube.com`.
+- Existing coverage: all except `stats.g.doubleclick.net` were already covered by the Highrulez list (including `www.googleadservices.com` via its parent rule). Direct DNS checks confirmed blocking for `pagead2.googlesyndication.com`, `googleads.g.doubleclick.net`, and `ads.youtube.com`.
+- Domain added: `stats.g.doubleclick.net` in `lists/video-ads.txt`. It is a hostname-specific DoubleClick measurement endpoint.
+- Domains skipped: `youtube.com`, `googlevideo.com`, `ytimg.com`, `ggpht.com`, `googleusercontent.com`, `s.youtube.com`, `redirector.googlevideo.com`, `youtubei.googleapis.com`, and Google Tag Manager hosts. These support playback, account/API features, thumbnails, or application delivery.
+- Playback result: three normal public videos loaded to ready state 4 and played past three seconds after explicit Play. Navigation, thumbnails/search results, and signed-out account UI remained available; no DNS-related playback failure was observed.
+- Ads: no pre-roll, display, or measurement ad was visibly rendered during the short startup samples. Mid-roll and post-roll could not be conclusively assessed without long-duration viewing, so advertisements are reported as **not demonstrated**, not fully blocked.
+- DNS limitation: YouTube frequently serves advertising and media through shared Google/YouTube infrastructure. DNS filtering can block dedicated Google ad and DoubleClick hosts but cannot reliably remove all YouTube ads without risking playback or core features.
+
+### Dailymotion
+
+- Domains evaluated: live Dailymotion player pages and their browser-visible player state; no dedicated Dailymotion advertising/tracking hostname was exposed through the available diagnostics.
+- Domains added: none.
+- Domains skipped: Dailymotion primary site, player/CDN, API, thumbnail, and account infrastructure. No broad Dailymotion rule was created.
+- Playback result: three normal public video pages showed an active `Video playing` player. Navigation remained available and no DNS-related playback failure was observed.
+- Ads: no obvious pre-roll/display ad was shown in the short samples; mid-roll and post-roll were not conclusively assessed. Result: **unchanged/not demonstrated**.

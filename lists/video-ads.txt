@@ -1,0 +1,6 @@
+! Title: Highrulez AdGuard Blocklist - Video ads
+! Syntax: AdGuard DNS filter
+
+||ads.tremorhub.com^
+||stats.g.doubleclick.net^
+||tremorhub.com^
