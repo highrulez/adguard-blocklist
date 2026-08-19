@@ -1,82 +1,310 @@
 ! Title: Highrulez AdGuard Blocklist
-! Description: Custom DNS blocklist for ads, tracking and telemetry
-! Version: 1.0.0
+! Description: Curated DNS blocklist for ads, trackers and telemetry
+! Homepage: https://github.com/highrulez/adguard-blocklist
 ! Updated: 2026-08-19
+! Syntax: AdGuard DNS filter
+!
+! Combined from lists/ads.txt, lists/trackers.txt, lists/telemetry.txt, and lists/oem-telemetry.txt.
 
-! ============================================================
-! Google / DoubleClick
-! ============================================================
-||pagead2.googlesyndication.com^
-||stats.g.doubleclick.net^
+! Ads
+||a.teads.tv^
+||aax.amazon-adsystem.com^
 ||ad.doubleclick.net^
-||static.doubleclick.net^
-||m.doubleclick.net^
-||mediavisor.doubleclick.net^
-
-! ============================================================
-! TikTok
-! ============================================================
-||ads-api.tiktok.com^
-||ads-sg.tiktok.com^
-||business-api.tiktok.com^
-||ads.tiktok.com^
-
-! ============================================================
-! Yandex
-! ============================================================
-||appmetrica.yandex.ru^
-||adfstat.yandex.ru^
-||metrika.yandex.ru^
-
-! ============================================================
-! Yahoo
-! ============================================================
-||udcm.yahoo.com^
-||log.fc.yahoo.com^
+||ad.gt^
+||adclick.g.doubleclick.net^
+||adcolony.com^
+||adnxs.com^
+||adroll.com^
+||ads.microsoft.com^
+||ads.pubmatic.com^
+||ads.youtube.com^
+||ads30.adcolony.com^
+||adsafeprotected.com^
+||adservetx.media.net^
+||adservice.google.com^
+||adsrvr.org^
 ||adtech.yahooinc.com^
-
-! ============================================================
-! Unity Ads
-! ============================================================
+||advertising.yahoo.com^
+||advertising-api-eu.amazon.com^
+||advice-ads.s3.amazonaws.com^
+||afs.googlesyndication.com^
+||amazon-adsystem.com^
+||apex.go.sonobi.com^
+||applovin.com^
 ||auction.unityads.unity3d.com^
+||bat.bing.com^
+||bidder.criteo.com^
+||c.amazon-adsystem.com^
+||c.gumgum.com^
+||casalemedia.com^
+||cdn.doubleverify.com^
+||cdn.indexexchange.com^
+||cdn.kargo.com^
+||cdn.mgid.com^
+||cdn.taboola.com^
+||cdn.teads.tv^
+||cm.g.doubleclick.net^
+||contextual.media.net^
+||contextweb.com^
+||criteo.com^
+||d.adroll.com^
+||d.applovin.com^
+||dis.criteo.com^
+||doubleverify.com^
+||eb2.3lift.com^
+||events3alt.adcolony.com^
+||fls-na.amazon.com^
+||fw.adsafeprotected.com^
+||gemini.yahoo.com^
+||googleads.g.doubleclick.net^
+||googleads4.g.doubleclick.net^
+||googleadservices.com^
+||gum.criteo.com^
+||hbopenbid.pubmatic.com^
+||htlb.casalemedia.com^
+||htlbid.com^
+||ib.adnxs.com^
+||image6.pubmatic.com^
+||images.taboola.com^
+||indexexchange.com^
+||init.supersonicads.com^
+||inmobi.com^
+||ironsource.mobi^
+||liftoff.io^
+||live.chartboost.com^
+||log.outbrain.com^
+||m.doubleclick.net^
+||match.adsrvr.org^
+||media.net^
+||mediavisor.doubleclick.net^
+||mgid.com^
+||ms.applovin.com^
+||nr.taboola.com^
+||odb.outbrain.com^
+||onclickads.net^
+||openx.net^
+||outcome-ssp.supersonicads.com^
+||pagead2.googleadservices.com^
+||pagead2.googlesyndication.com^
+||pangleglobal.com^
+||partnerads.ysm.yahoo.com^
+||pixel.adsafeprotected.com^
+||pixel.rubiconproject.com^
+||prebid.adnxs.com^
+||propellerads.com^
+||pubads.g.doubleclick.net^
+||pubmatic.com^
+||rt.applovin.com^
+||rtb.openx.net^
+||rubiconproject.com^
+||s.adroll.com^
+||secure.adnxs.com^
+||securepubads.g.doubleclick.net^
+||servicer.mgid.com^
+||sharethrough.com^
+||simage2.pubmatic.com^
+||sin3-ib.adnxs.com^
+||smartyads.com^
+||sslwidget.criteo.com^
+||stackadapt.com^
+||static.adsafeprotected.com^
+||static.criteo.net^
+||static.doubleclick.net^
+||static.media.net^
+||sync.kargo.com^
+||tlx.3lift.com^
+||tpc.googlesyndication.com^
+||tps.doubleverify.com^
+||trc.taboola.com^
+||u.openx.net^
+||us-ads.openx.net^
+||vungle.com^
+||wd.adcolony.com^
 ||webview.unityads.unity3d.com^
-||config.unityads.unity3d.com^
-||adserver.unityads.unity3d.com^
+||widgets.outbrain.com^
 
-! ============================================================
-! Realme
-! ============================================================
-||iot-eu-logser.realme.com^
-||iot-logser.realme.com^
+! Trackers
+||ad.crwdcntrl.net^
+||ad.linksynergy.com^
+||ad.mail.ru^
+||adfox.yandex.ru^
+||adfstat.yandex.ru^
+||adjust.com^
+||ads.linkedin.com^
+||ads.pinterest.com^
+||ads.tiktok.com^
+||ads.vk.com^
+||ads-api.tiktok.com^
+||ads-api.twitter.com^
+||ads-api.x.com^
+||an.facebook.com^
+||analytics.pinterest.com^
+||analytics.query.yahoo.com^
+||analytics.tiktok.com^
+||analytics.twitter.com^
+||analytics.x.com^
+||api.adjust.com^
+||api.amplitude.com^
+||api.appsflyer.com^
+||api.fyber.com^
+||api.mixpanel.com^
+||api.rlcdn.com^
+||api.segment.io^
+||app.adjust.com^
+||app.appsflyer.com^
+||appmetrica.yandex.ru^
+||appsflyer.com^
+||b.scorecardresearch.com^
+||bcp.crwdcntrl.net^
+||bnc.lt^
+||cdn.heapanalytics.com^
+||cdn.mouseflow.com^
+||cdn.permutive.com^
+||cdn.rudderlabs.com^
+||cdn.segment.com^
+||cdn.siftscience.com^
+||click.googleanalytics.com^
+||click.linksynergy.com^
+||cloudflareinsights.com^
+||control.kochava.com^
+||ct.pinterest.com^
+||d.impactradius-event.com^
+||d.reddit.com^
+||decide.mixpanel.com^
+||edge.fullstory.com^
+||events.reddit.com^
+||events.redditmedia.com^
+||fingerprintjs.com^
+||fpjs.io^
+||google-analytics.com^
+||id5-sync.com^
+||idsync.rlcdn.com^
+||log.byteoversea.com^
+||log.pinterest.com^
+||metrika.yandex.ru^
+||mon.byteoversea.com^
+||mon.tiktokv.com^
+||onetag-sys.com^
+||pippio.com^
+||pixel.facebook.com^
+||pixel.mathtag.com^
+||pixel.quantserve.com^
+||pixel.quora.com^
+||prod.uidapi.com^
+||px.ads.linkedin.com^
+||px.srvcs.tumblr.com^
+||qevents.quora.com^
+||quantcast.com^
+||quantserve.com^
+||region1.google-analytics.com^
+||rs.fullstory.com^
+||rudderstack.com^
+||s.skimresources.com^
+||sb.scorecardresearch.com^
+||sc-analytics.appspot.com^
+||sdk-api-v1.singular.net^
+||siftscience.com^
+||snap.licdn.com^
+||snowplowanalytics.com^
+||sync.crwdcntrl.net^
+||sync.mathtag.com^
+||sync-tm.everesttech.net^
+||t.skimresources.com^
+||tags.crwdcntrl.net^
+||top-fwz1.mail.ru^
+||tr.facebook.com^
+||tr.snapchat.com^
+||track.linksynergy.com^
+||trk.pinterest.com^
+||us.i.posthog.com^
+||wzrkt.com^
+
+! Telemetry
+||api.bugsnag.com^
+||api.luckyorange.com^
+||api.mouseflow.com^
+||app.getsentry.com^
+||app.posthog.com^
+||bam.nr-data.net^
+||bam-cell.nr-data.net^
+||browser.sentry-cdn.com^
+||browser-intake-datadoghq.com^
+||c.clarity.ms^
+||cdn.lr-ingest.com^
+||claritybt.freshmarketer.com^
+||cs.luckyorange.net^
+||eu.posthog.com^
+||fwtracks.freshmarketer.com^
+||identify.hotjar.com^
+||in.hotjar.com^
+||insights.hotjar.com^
+||js-agent.newrelic.com^
+||metrics.adobe.com^
+||munchkin.marketo.net^
+||notify.bugsnag.com^
+||o0.ingest.sentry.io^
+||r.lr-ingest.com^
+||realtime.luckyorange.com^
+||rum.browser-intake-datadoghq.com^
+||sessions.bugsnag.com^
+||settings.luckyorange.net^
+||ssl.google-analytics.com^
+||static.hotjar.com^
+||stats.wp.com^
+||surveys.hotjar.com^
+||track.hubspot.com^
+||vars.hotjar.com^
+||www.google-analytics.com^
+
+! OEM telemetry
+||ad.lgappstv.com^
+||ads.huawei.com^
+||ads.roku.com^
+||ads.vizio.com^
+||adsfs.oppomobile.com^
+||advertising.apple.com^
+||analytics-api.samsunghealthcn.com^
+||api.ad.xiaomi.com^
+||api-adservices.apple.com^
 ||bdapi-ads.realmemobile.com^
 ||bdapi-in-ads.realmemobile.com^
-
-! ============================================================
-! OPPO
-! ============================================================
-||adsfs.oppomobile.com^
-||adx.ads.oppomobile.com^
-||ck.ads.oppomobile.com^
+||books-analytics-events.apple.com^
+||browser.events.data.msn.com^
+||config.samsungads.com^
 ||data.ads.oppomobile.com^
-
-! ============================================================
-! Xiaomi / MIUI
-! ============================================================
-||data.mistat.xiaomi.com^
 ||data.mistat.india.xiaomi.com^
 ||data.mistat.rus.xiaomi.com^
-||tracking.rus.miui.com^
-
-! ============================================================
-! Huawei
-! ============================================================
+||data.mistat.xiaomi.com^
+||device-metrics-us.amazon.com^
+||device-metrics-us-2.amazon.com^
 ||grs.hicloud.com^
-
-! ============================================================
-! Apple Ads / Analytics
-! ============================================================
 ||iadsdk.apple.com^
-||api-adservices.apple.com^
-||books-analytics-events.apple.com^
-||weather-analytics-events.apple.com^
+||iot-eu-logser.realme.com^
+||iot-logser.realme.com^
+||logbak.hicloud.com^
+||logservice.hicloud.com^
+||logservice1.hicloud.com^
+||mads-eu.amazon.com^
+||metrics.data.hicloud.com^
+||metrics.icloud.com^
+||metrics.mzstatic.com^
+||metrics2.data.hicloud.com^
+||ngfts.lge.com^
 ||notes-analytics-events.apple.com^
+||open.oneplus.net^
+||samsungads.com^
+||samsung-com.112.2o7.net^
+||sdkconfig.ad.intl.xiaomi.com^
+||sdkconfig.ad.xiaomi.com^
+||settings-win.data.microsoft.com^
+||smartclip.com^
+||smartclip.net^
+||smetrics.samsung.com^
+||tr.iadsdk.apple.com^
+||tracking.miui.com^
+||tracking.rus.miui.com^
+||vortex.data.microsoft.com^
+||vortex-win.data.microsoft.com^
+||watson.telemetry.microsoft.com^
+||weather-analytics-events.apple.com^
+||xp.apple.com^
