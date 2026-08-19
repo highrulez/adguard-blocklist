@@ -8,6 +8,7 @@
 
 ! Ads
 ||a.teads.tv^
+||aan.amazon.com^
 ||aax.amazon-adsystem.com^
 ||ad.doubleclick.net^
 ||ad.gt^
@@ -17,6 +18,7 @@
 ||adroll.com^
 ||ads.microsoft.com^
 ||ads.pubmatic.com^
+||ads.tremorhub.com^
 ||ads.youtube.com^
 ||ads30.adcolony.com^
 ||adsafeprotected.com^
@@ -34,6 +36,7 @@
 ||auction.unityads.unity3d.com^
 ||bat.bing.com^
 ||bidder.criteo.com^
+||bingads.microsoft.com^
 ||c.amazon-adsystem.com^
 ||c.gumgum.com^
 ||casalemedia.com^
@@ -112,10 +115,12 @@
 ||static.doubleclick.net^
 ||static.media.net^
 ||sync.kargo.com^
+||taboola.com^
 ||tlx.3lift.com^
 ||tpc.googlesyndication.com^
 ||tps.doubleverify.com^
 ||trc.taboola.com^
+||tremorhub.com^
 ||u.openx.net^
 ||us-ads.openx.net^
 ||vungle.com^
@@ -139,6 +144,7 @@
 ||ads-api.x.com^
 ||an.facebook.com^
 ||analytics.pinterest.com^
+||analytics.pointdrive.linkedin.com^
 ||analytics.query.yahoo.com^
 ||analytics.tiktok.com^
 ||analytics.twitter.com^
@@ -150,6 +156,8 @@
 ||api.mixpanel.com^
 ||api.rlcdn.com^
 ||api.segment.io^
+||api2.amplitude.com^
+||api2.branch.io^
 ||app.adjust.com^
 ||app.appsflyer.com^
 ||appmetrica.yandex.ru^
@@ -163,6 +171,7 @@
 ||cdn.rudderlabs.com^
 ||cdn.segment.com^
 ||cdn.siftscience.com^
+||clevertap-prod.com^
 ||click.googleanalytics.com^
 ||click.linksynergy.com^
 ||cloudflareinsights.com^
@@ -177,6 +186,7 @@
 ||fingerprintjs.com^
 ||fpjs.io^
 ||google-analytics.com^
+||heapanalytics.com^
 ||id5-sync.com^
 ||idsync.rlcdn.com^
 ||log.byteoversea.com^
@@ -185,6 +195,7 @@
 ||mon.byteoversea.com^
 ||mon.tiktokv.com^
 ||onetag-sys.com^
+||permutive.com^
 ||pippio.com^
 ||pixel.facebook.com^
 ||pixel.mathtag.com^
@@ -204,6 +215,7 @@
 ||sc-analytics.appspot.com^
 ||sdk-api-v1.singular.net^
 ||siftscience.com^
+||singular.net^
 ||snap.licdn.com^
 ||snowplowanalytics.com^
 ||sync.crwdcntrl.net^
@@ -215,16 +227,19 @@
 ||tr.facebook.com^
 ||tr.snapchat.com^
 ||track.linksynergy.com^
+||trackcmp.net^
 ||trk.pinterest.com^
 ||us.i.posthog.com^
 ||wzrkt.com^
 
 ! Telemetry
+||analytics.adobe.io^
 ||api.bugsnag.com^
 ||api.luckyorange.com^
 ||api.mouseflow.com^
 ||app.getsentry.com^
 ||app.posthog.com^
+||app-measurement.com^
 ||bam.nr-data.net^
 ||bam-cell.nr-data.net^
 ||browser.sentry-cdn.com^
@@ -246,6 +261,7 @@
 ||r.lr-ingest.com^
 ||realtime.luckyorange.com^
 ||rum.browser-intake-datadoghq.com^
+||script.hotjar.com^
 ||sessions.bugsnag.com^
 ||settings.luckyorange.net^
 ||ssl.google-analytics.com^
@@ -303,6 +319,7 @@
 ||tr.iadsdk.apple.com^
 ||tracking.miui.com^
 ||tracking.rus.miui.com^
+||us.info.lgsmartad.com^
 ||vortex.data.microsoft.com^
 ||vortex-win.data.microsoft.com^
 ||watson.telemetry.microsoft.com^

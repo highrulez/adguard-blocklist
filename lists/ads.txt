@@ -2,6 +2,7 @@
 ! Syntax: AdGuard DNS filter
 
 ||a.teads.tv^
+||aan.amazon.com^
 ||aax.amazon-adsystem.com^
 ||ad.doubleclick.net^
 ||ad.gt^
@@ -11,6 +12,7 @@
 ||adroll.com^
 ||ads.microsoft.com^
 ||ads.pubmatic.com^
+||ads.tremorhub.com^
 ||ads.youtube.com^
 ||ads30.adcolony.com^
 ||adsafeprotected.com^
@@ -28,6 +30,7 @@
 ||auction.unityads.unity3d.com^
 ||bat.bing.com^
 ||bidder.criteo.com^
+||bingads.microsoft.com^
 ||c.amazon-adsystem.com^
 ||c.gumgum.com^
 ||casalemedia.com^
@@ -106,10 +109,12 @@
 ||static.doubleclick.net^
 ||static.media.net^
 ||sync.kargo.com^
+||taboola.com^
 ||tlx.3lift.com^
 ||tpc.googlesyndication.com^
 ||tps.doubleverify.com^
 ||trc.taboola.com^
+||tremorhub.com^
 ||u.openx.net^
 ||us-ads.openx.net^
 ||vungle.com^

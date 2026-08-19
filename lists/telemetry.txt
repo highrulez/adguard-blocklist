@@ -1,11 +1,13 @@
 ! Title: Highrulez AdGuard Blocklist - Telemetry
 ! Syntax: AdGuard DNS filter
 
+||analytics.adobe.io^
 ||api.bugsnag.com^
 ||api.luckyorange.com^
 ||api.mouseflow.com^
 ||app.getsentry.com^
 ||app.posthog.com^
+||app-measurement.com^
 ||bam.nr-data.net^
 ||bam-cell.nr-data.net^
 ||browser.sentry-cdn.com^
@@ -27,6 +29,7 @@
 ||r.lr-ingest.com^
 ||realtime.luckyorange.com^
 ||rum.browser-intake-datadoghq.com^
+||script.hotjar.com^
 ||sessions.bugsnag.com^
 ||settings.luckyorange.net^
 ||ssl.google-analytics.com^

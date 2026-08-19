@@ -16,6 +16,7 @@
 ||ads-api.x.com^
 ||an.facebook.com^
 ||analytics.pinterest.com^
+||analytics.pointdrive.linkedin.com^
 ||analytics.query.yahoo.com^
 ||analytics.tiktok.com^
 ||analytics.twitter.com^
@@ -27,6 +28,8 @@
 ||api.mixpanel.com^
 ||api.rlcdn.com^
 ||api.segment.io^
+||api2.amplitude.com^
+||api2.branch.io^
 ||app.adjust.com^
 ||app.appsflyer.com^
 ||appmetrica.yandex.ru^
@@ -40,6 +43,7 @@
 ||cdn.rudderlabs.com^
 ||cdn.segment.com^
 ||cdn.siftscience.com^
+||clevertap-prod.com^
 ||click.googleanalytics.com^
 ||click.linksynergy.com^
 ||cloudflareinsights.com^
@@ -54,6 +58,7 @@
 ||fingerprintjs.com^
 ||fpjs.io^
 ||google-analytics.com^
+||heapanalytics.com^
 ||id5-sync.com^
 ||idsync.rlcdn.com^
 ||log.byteoversea.com^
@@ -62,6 +67,7 @@
 ||mon.byteoversea.com^
 ||mon.tiktokv.com^
 ||onetag-sys.com^
+||permutive.com^
 ||pippio.com^
 ||pixel.facebook.com^
 ||pixel.mathtag.com^
@@ -81,6 +87,7 @@
 ||sc-analytics.appspot.com^
 ||sdk-api-v1.singular.net^
 ||siftscience.com^
+||singular.net^
 ||snap.licdn.com^
 ||snowplowanalytics.com^
 ||sync.crwdcntrl.net^
@@ -92,6 +99,7 @@
 ||tr.facebook.com^
 ||tr.snapchat.com^
 ||track.linksynergy.com^
+||trackcmp.net^
 ||trk.pinterest.com^
 ||us.i.posthog.com^
 ||wzrkt.com^

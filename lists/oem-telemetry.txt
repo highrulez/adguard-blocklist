@@ -47,6 +47,7 @@
 ||tr.iadsdk.apple.com^
 ||tracking.miui.com^
 ||tracking.rus.miui.com^
+||us.info.lgsmartad.com^
 ||vortex.data.microsoft.com^
 ||vortex-win.data.microsoft.com^
 ||watson.telemetry.microsoft.com^
